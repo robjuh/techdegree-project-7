@@ -38,7 +38,7 @@ body {
       display: grid;
       grid-gap: 2px;
       grid-template-columns: minmax(0, 1fr);
-      padding: 0 10px;
+      padding: 0 5px;
    }
 
     .half-size-charts,
@@ -63,7 +63,6 @@ body {
     .header-right {
       display: flex;
       position: relative; /***** ZIN???!!!****/
-      margin-left: 40%;
     }
 
     .border-left {
@@ -159,18 +158,12 @@ body {
   
   /****************************MAIN*****************************************/
     .main-top {
-        display: flex;
-        justify-content: space-between;
         margin-top:10px;
         margin-bottom: 5px;     
     }
 
     .headline {
       font-weight: normal;
-    }
-
-    .search {
-      padding: 10px;
     }
 
     .alert-banner {
@@ -183,15 +176,6 @@ body {
       list-style-type: none;
       display: flex;
       margin-right: 20px;
-    }
-
-    .traffic-header {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .traffic-nav-link {
-      padding: 5px;
     }
 
     .active {
